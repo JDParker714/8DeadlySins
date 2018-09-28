@@ -1,0 +1,1 @@
+return image_index >= argument0 and image_index<= argument0+(image_speed*sprite_get_speed(sprite_index)/game_get_speed(gamespeed_fps));
