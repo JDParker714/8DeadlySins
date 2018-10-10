@@ -6,4 +6,3 @@ max_hp = 25;
 state = "chase";
 attack_range = 42;
 chase_speed = 1;
-show_hp = 0;

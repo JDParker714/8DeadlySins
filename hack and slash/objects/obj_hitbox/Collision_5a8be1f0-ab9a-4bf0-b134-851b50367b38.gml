@@ -18,7 +18,7 @@ repeat (10)
 }
 
 if not instance_exists(other) exit;
-if other.object_index == obj_enemy1.object_index
+if object_is_ancestor(other.object_index, obj_enemy_parent)
 {
 	other.show_hp = 1;
 	other.alarm[1] = 2*room_speed;

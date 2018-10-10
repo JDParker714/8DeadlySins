@@ -46,6 +46,11 @@ switch(state)
 		}
 		#endregion
 		break;
+	case "death":
+		#region death
+		sprite_set_state(s_knight_die_strip6,1,0);
+		#endregion
+		break;
 	default:
 		state = "chase";
 		break;
